@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingCollectorConfig", "PingCollectorConfig\PingCollectorConfig.csproj", "{75CB0431-A7CA-4764-88C2-EDC5A949E296}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E} = {6113A6C6-E310-47EE-B948-13CA09ECB86E}
+	EndProjectSection
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Ping Collector Setup", "Ping Collector Setup\Ping Collector Setup.isproj", "{9795E02F-30FD-4ABC-9541-15F25610A7F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296} = {75CB0431-A7CA-4764-88C2-EDC5A949E296}
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E} = {6113A6C6-E310-47EE-B948-13CA09ECB86E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingCollectorService", "PingCollectorService\PingCollectorService.csproj", "{6113A6C6-E310-47EE-B948-13CA09ECB86E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D779CC43-3428-4E58-A9CB-00AD459F49F9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{75CB0431-A7CA-4764-88C2-EDC5A949E296}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.Debug|Any CPU.ActiveCfg = SingleImage
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.Debug|Any CPU.Build.0 = SingleImage
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.DVD-5|Any CPU.Build.0 = DVD-5
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.Release|Any CPU.ActiveCfg = SingleImage
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.Release|Any CPU.Build.0 = SingleImage
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.Release|Any CPU.Deploy.0 = SingleImage
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{9795E02F-30FD-4ABC-9541-15F25610A7F4}.SingleImage|Any CPU.Build.0 = SingleImage
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{6113A6C6-E310-47EE-B948-13CA09ECB86E}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
